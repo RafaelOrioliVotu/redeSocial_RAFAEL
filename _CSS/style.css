@@ -26,6 +26,14 @@ h3 {
     font-size: 30px;
 }
 
+h5 {
+    color: black;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
 #divp {
     display: flex;
     flex-flow: column nowrap;
@@ -45,7 +53,7 @@ h3 {
         height: 230px;
         margin-left: 50px;
         margin-right: 50px;
-        border-right: 10px double black; 
+        border-right: 10px double black;
         border-left: 10px double black;
     }
 
@@ -100,13 +108,15 @@ img {
     margin-bottom: 21px;
 }
 
-#ulsobre {
+.ulsobre {
     list-style: none;
     padding-left: 25px;
 
     li {
+        margin-right: 25px;
         margin-top: 10px;
         font-size: 1.2rem;
+        text-align: justify;
     }
 }
 
